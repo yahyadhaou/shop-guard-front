@@ -1,0 +1,58 @@
+/* Revised LoginScreen.css */
+
+.login-wrapper {
+  background-color: #F2FBFE;
+  display: flex; /* Center the form vertically */
+  justify-content: center; /* Center the form horizontally */
+  align-items: center;
+  height: 100vh; /* Set container height to 100% viewport height */
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column; /* Arrange elements vertically */
+  align-items: center;
+}
+
+.login-logo {
+  position: fixed; /* Fix the logo to the viewport */
+  top: 20px; /* Adjust top position as needed */
+  left: 20px; /* Adjust left position as needed */
+  width: 150px; /* Adjust logo width as needed */
+  height: auto; /* Maintain logo aspect ratio */
+}
+
+.login-title {
+  color: #025054;
+  margin-bottom: 100px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 30px; /* Adjust title font size as needed */
+}
+
+.login-input {
+  width: 250px; /* Adjust input width as needed */
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  background-color: #D1EDFC;
+}
+
+.login-button {
+  background-color: #025054;
+  color: white;
+  width: 150px;
+  height: 45px;
+  padding: 10px 20px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.signup-link {
+  color: #9e0808;
+  text-align: center;
+  margin-top: 40px; /* Add spacing above links */
+}

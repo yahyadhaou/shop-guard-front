@@ -1,0 +1,42 @@
+p {
+  margin: 0;
+}
+
+.Test {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 1200px;
+  height: 720px;
+  border-radius: 23px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.group-291 {
+  position: absolute;
+  top: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Align items vertically */
+  width: fit-content; /* Adjust width as needed */
+  height: fit-content; /* Adjust height as needed */
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Auto height to maintain aspect ratio */
+}
+
+.repair-workshop {
+  margin-left: 10px; /* Add margin to the left of the text */
+  color: rgba(2, 80, 84, 1);
+  font-size: 35px;
+  line-height: 35px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+};

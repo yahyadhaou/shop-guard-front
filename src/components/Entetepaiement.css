@@ -1,0 +1,26 @@
+/* Update the CSS rule for the navbar */
+.navbar {
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between; /* Ensure items are spaced apart */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Add padding for space */
+}
+
+/* Update the CSS rule for the logo */
+.pic {
+    margin-right: 10px; /* Add margin between logo and title */
+}
+
+.pic img {
+    width: 150px;
+    height: auto;
+}
+
+/* Update the CSS rule for the title */
+.navbar h2 {
+    margin: 0; /* Reset margin */
+    text-align: center; /* Center the text */
+    flex-grow: 1; /* Allow the title to take up available space */
+}

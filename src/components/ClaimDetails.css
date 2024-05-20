@@ -1,0 +1,52 @@
+/* ClaimDetails.css */
+
+.claim-details-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px; /* Conservez la bordure arrondie */
+    text-align: left; /* Aligner le texte à gauche */
+  }
+  
+  .claim-details-container h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Ajoute de l'espace en bas du titre */
+  }
+  
+  .claim-details-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .claim-details-container ul li {
+    margin-bottom: 10px; /* Ajoute de l'espace entre les éléments de liste */
+  }
+  
+  .action-buttons {
+    text-align: center;
+    margin-top: 20px; /* Ajoute de l'espace au-dessus des boutons d'action */
+  }
+  
+  .action-buttons button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-buttons button.repair {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .action-buttons button.refund {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .action-buttons button.reject {
+    background-color: #f44336;
+    color: white;
+  }
+  

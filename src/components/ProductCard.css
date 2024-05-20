@@ -1,0 +1,67 @@
+.filterDiv {
+  background-color: #ffffff;
+  color: #282F39;
+  text-align: center;
+  margin: 10px; /* Ajusté pour plus d'espace autour des cartes */
+  border: 2px solid #025054; /* Garder la même couleur de bordure */
+  border-radius: 10px;
+  width: calc(100% - 20px); /* Ajuster la largeur pour inclure la marge */
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ajout de l'ombre */
+  transition: transform 0.3s ease-in-out; /* Animation pour l'effet au survol */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Aligner les éléments horizontalement */
+}
+
+.filterDiv img {
+  width: 100px;
+  height: 170px;
+  border-top-left-radius: 8px; /* Arrondir les coins supérieurs de l'image */
+  border-top-right-radius: 8px;
+}
+.product-info {
+  padding: 10px; /* Ajouter de l'espace autour du texte */
+}
+
+.product-name,
+.product-price {
+  text-align: center; /* Centrer le texte */
+  margin-top: 5px; /* Espacement entre le nom et le prix */
+  color:#282F39;
+  font-size: 25px;
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Aligner les éléments sur la gauche */
+}
+
+.product-container > .filterDiv {
+  flex-basis: calc(33.33% - 20px); /* 33.33% de largeur pour chaque produit */
+  margin-bottom: 20px; /* Espacement en bas de chaque produit */
+}
+
+@media screen and (max-width: 992px) {
+  .product-container > .filterDiv {
+    flex-basis: calc(50% - 20px); /* 50% de largeur sur les écrans plus petits */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .product-container > .filterDiv {
+    flex-basis: calc(100% - 20px); /* 100% de largeur sur les petits écrans (une colonne) */
+  }
+}
+
+.filterDiv:hover {
+  transform: translateY(-10px); /* Effet de lévitation au survol */
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

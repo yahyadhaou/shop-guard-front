@@ -1,0 +1,80 @@
+/* Claim.css */
+
+/* Ajoute une marge supérieure à la liste des réclamations */
+.claims-list-container {
+  margin-top: 20px; /* Ajustez la valeur selon vos besoins */
+}
+/* Claim.css */
+
+/* Limite la largeur du conteneur des réclamations et le centre */
+.claims-list-container {
+  margin: 20px auto; /* Marge autour du conteneur et centrage horizontal */
+  max-width: 800px; /* Largeur maximale du conteneur */
+}
+
+.claim-container {
+  background-color: white;
+  border: 4px solid #49968C;
+  border-radius: 40px;
+  padding: 20px;
+  margin-bottom: 20px; /* Espacement entre chaque réclamation */
+}
+
+.claim-container td {
+  padding: 10px; /* Espacement autour de chaque cellule */
+}
+
+.claim-title {
+  text-align: center; /* Centrer le texte */
+  margin-bottom: 20px; /* Espacement en bas du titre */
+}
+
+table {
+  width: 100%; /* Pour étendre le tableau sur toute la largeur de la liste */
+  border-collapse: collapse; /* Pour fusionner les bordures des cellules */
+}
+
+th,
+td {
+  padding: 10px; /* Espacement autour du contenu de chaque cellule */
+  border: 1px solid #ddd; /* Bordure de chaque cellule */
+}
+
+th {
+  background-color: #f2f2f2; /* Couleur de fond pour l'en-tête */
+}
+
+td:first-child {
+  width: 20%; /* Largeur fixe pour la première colonne (numéro de réclamation) */
+}
+
+td:last-child {
+  width: 15%; /* Largeur fixe pour la dernière colonne (état) */
+}
+
+/* Ajouter de l'espace entre les colonnes */
+td:not(:last-child) {
+  padding-right: 20px;
+}
+.claim-container:last-child {
+  margin-bottom: 0; /* Supprimer la marge en bas pour la dernière réclamation */
+}
+
+.claim-button {
+  border-radius: 20px; /* Arrondir les coins du bouton */
+  padding: 10px 20px; /* Ajouter de l'espace intérieur au bouton */
+  font-size: 14px; /* Taille de la police */
+  font-weight: bold; /* Gras */
+  cursor: pointer; /* Curseur pointer au survol */
+  border: 2px solid transparent; /* Bordure transparente */
+}
+
+.processed {
+  background-color: #19F764; /* Couleur du bouton pour processed */
+  color: white; /* Couleur du texte pour processed */
+}
+
+.unprocessed {
+  background-color: #C72532; /* Couleur du bouton pour unprocessed */
+  color: white; /* Couleur du texte pour unprocessed */
+}

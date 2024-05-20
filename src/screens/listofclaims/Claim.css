@@ -1,0 +1,27 @@
+/* ConsultClaimScreen.css */
+
+.container {
+  padding: 20px;
+}
+
+.label {
+  font-size: 18px; 
+  margin-bottom: 20px; 
+  text-align: left; 
+}
+
+.label span {
+  color:#025054 ;
+  font-weight: bold; 
+}
+
+.closeButton {
+  background-color: #C72532;
+  color: white; 
+  border: none;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border-radius: 5px; 
+  float: right; 
+  cursor: pointer; 
+}

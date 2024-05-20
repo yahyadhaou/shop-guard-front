@@ -1,0 +1,48 @@
+.bg {
+  background-color: #F2FBFE;   
+  height: 100vh; /* Ensure background color covers the whole viewport */
+  width: 100vw; /* Ensure background color covers the whole viewport */
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  padding: 10px 20px; /* Add padding for space */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Update the CSS rule for the logo */
+.pic {
+  margin-right: 20px; /* Add margin between logo and title */
+}
+
+.pic img {
+  width: 150px;
+  height: auto;
+}
+
+.navbar h2 {
+  margin: 0; /* Reset margin */
+  color: #282F39;
+  flex-grow: 1; /* Allow the title to take up available space */
+  text-align: center; /* Center the text horizontally */
+  margin-left: -200px; /* Adjust this value to move the text closer to the left */
+}
+
+.no-repair-orders-are-pen {
+  position: absolute;
+  top: 329px;
+  left: 50%;
+  transform: translateX(-50%); /* Center the text horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(199, 37, 50, 1);
+  font-size: 36px;
+  line-height: 36px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  text-align: center;
+}

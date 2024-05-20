@@ -1,0 +1,70 @@
+.signup-screen {
+  background-color: #F2FBFE;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.signup-screen h2 {
+  margin-bottom: 30px;
+  color: #025054;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 30px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  max-width: 800px;
+}
+
+.form-group {
+  margin: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+input[type='email'],
+input[type='password'],
+input[type='tel'],
+input[type='text'],
+select {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.button {
+  background-color: #025054;
+  color: white;
+  width: 150px;
+  height: 45px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #012426;
+}

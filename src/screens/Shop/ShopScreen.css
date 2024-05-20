@@ -1,0 +1,35 @@
+/* ShopScreen.css */
+#myBtnContainer {
+  text-align: center; /* Centrer le texte à l'intérieur du conteneur */
+  margin-bottom: 20px; /* Ajouter de l'espace en bas */
+}
+
+  .show {
+    display: block;
+  }
+  
+  .container {
+    margin-top: 20px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .btn {
+    border: none;
+    outline: none;
+    padding: 5px 10px; /* Réduire le padding pour réduire la hauteur */
+    background-color: #ffffff;
+    color: #025054;
+    cursor: pointer;
+  }
+
+  
+  .btn:hover {
+    border: 1px solid #025054;
+  }
+  
+  .btn.active {
+    background-color: #025054;
+    color: white;
+  }
+  

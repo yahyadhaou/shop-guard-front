@@ -1,0 +1,37 @@
+/* HomeScreen.css */
+
+
+.banner {
+    background-size: cover; /* Redimensionner l'image pour couvrir toute la bannière */
+    background-position: center; /* Centrer l'image */
+    color: rgb(115, 0, 0); /* Couleur du texte */
+    text-align: center;
+    padding: 20px 0; /* Espacement intérieur de la bannière */
+    font-size: 40px; /* Taille de la police */
+  }
+  
+  
+  .values {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; /* Espacement supérieur entre la bannière et les valeurs */
+    font-weight: bold;
+    background-color: #F2FBFE;
+    border-radius: 30px;
+  }
+  
+  .value {
+    text-align: center;
+    font-weight: 'bold';
+    font-size: 25px;
+
+  }
+  
+  .value img {
+    width: 100px; /* Taille des icônes */
+  }
+  
+  .value p {
+    margin-top: 10px; /* Espacement supérieur entre l'icône et le texte */
+  }
+  

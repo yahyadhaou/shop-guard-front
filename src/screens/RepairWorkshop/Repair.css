@@ -1,0 +1,37 @@
+
+.bg{
+    background-color:#F2FBFE;   
+}.navbar {
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between; /* Ensure items are spaced apart */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Add padding for space */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+
+/* Update the CSS rule for the logo */
+.pic {
+    margin-right: 10px; /* Add margin between logo and title */
+}
+
+.pic img {
+    width: 150px;
+    height: auto;
+}
+
+
+.navbar h2 {
+    margin: 0; /* Reset margin */
+    color: #282F39;
+    flex-grow: 1; /* Allow the title to take up available space */
+    text-align: center; /* Center the text horizontally */
+    margin-left: -200px; /* Adjust this value to move the text closer to the left */
+}
+
+
+/* Ensure each product box has space between them */
+
+

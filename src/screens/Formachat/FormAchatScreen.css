@@ -1,0 +1,99 @@
+FormAchatScreen.css
+
+.form-container {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between; 
+background-color: #F2FBFE;
+}
+  
+  .center-title {
+    text-align: center;
+    margin-bottom: 40px; 
+ color: #282F39;
+ font-size: 23px;
+ text-shadow: 1px 1px 2px rgba(5, 73, 99, 0.806); 
+}
+  
+  .form-left,
+  .form-right {
+    width: 60%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #025054;
+    font-weight: bold; 
+  }
+  #contractType {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #025054; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white; 
+    color: #025054; 
+  }
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #025054;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  select,
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #025054; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white; 
+  color: #025054; 
+}
+  input[type="checkbox"] {
+    margin-top: 10px;
+  }
+  .form-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .form-btn {
+    margin-top: 20px; /* Ajout de marge en haut du bouton */
+    margin-bottom: 20px; /* Ajout de marge en bas du bouton */
+    margin-right: 10px; /* Ajout de marge à droite du bouton */
+    background-color: #ffffff; /* Fond blanc */
+    color: #025054; /* Couleur du texte */
+    padding: 10px 20px;
+    border: 1px solid #025054; /* Bordure de couleur #025054 */
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative; /* Changement de position à relative */
+  }
+  
+  
+.form-btn:hover{
+    background-color: #025054;
+    color: #ffffff;
+}  
+.checkbox-container {
+    display: flex;
+    align-items: center; /* Alignement vertical au centre */
+  }
+  
+  .checkbox-input {
+    width: 20px; /* Largeur de la case à cocher */
+    height: 20px; /* Hauteur de la case à cocher */
+  
+}
