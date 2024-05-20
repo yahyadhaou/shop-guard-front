@@ -1,0 +1,112 @@
+[
+	{
+		"id" : 2,
+		"name" : "iphone 15",
+		"model" : "ip-15-14/05/2024",
+		"category" : "smartphone",
+		"price" : "3850",
+		"color" : "blue",
+		"image" : "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/0/1/010-02159-14_1759_1_1.jpg",
+		"size" : "1024",
+		"brand" : "appel"
+	},
+	{
+		"id" : 3,
+		"name" : " SAMSUNG GALAXY Z FOLD 5 ",
+		"model" : " Z FOLD 5 12GO 256GO",
+		"category" : "smartphone",
+		"price" : "7999",
+		"color" : "GRIS",
+		"image" : "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/s/m/smartphone-samsung-galaxy-z-fold-5-12go-256go-gris-graphite.jpg",
+		"size" : "512",
+		"brand" : " SAMSUNG"
+	},
+	{
+		"id" : 4,
+		"name" : "SAMSUNG GALAXY Z FLIP 5 ",
+		"model" : "Z FLIP 5 8GO 256GO ",
+		"category" : "smartphone",
+		"price" : "4599",
+		"color" : "GRIS GRAPHITE",
+		"image" : "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/s/m/smartphone-samsung-galaxy-z-flip-5-8go-256go-gris-graphite.jpg",
+		"size" : "256",
+		"brand" : " SAMSUNG"
+	},
+	{
+		"id" : 6,
+		"name" : " SAMSUNG GALAXY S24",
+		"model" : "S24 12GO 256",
+		"category" : "smartphone",
+		"price" : "4599",
+		"color" : "GRIS",
+		"image" : "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/s/m/smartphone-samsung-galaxy-s24-12go-256go-gris.jpg",
+		"size" : "256",
+		"brand" : "SAMSUNG"
+	},
+	{
+		"id" : 7,
+		"name" : " HUAWEI NOVA 11",
+		"model" : "8GO 256GO",
+		"category" : "smartphone",
+		"price" : "2 199",
+		"color" : "VERT",
+		"image" : "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/s/m/smartphone-huawei-nova-11-8go-256go-vert_2.jpg",
+		"size" : "256",
+		"brand" : "HUAWEI "
+	},
+	{
+		"id" : 8,
+		"name" : "SAMSUNG GALAXY A55",
+		"model" : "5G 8GO 256GO",
+		"category" : "smartphone",
+		"price" : "1 999",
+		"color" : "BLEU MARINE",
+		"image" : "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/s/m/smartphone-samsung-galaxy-a55-5g-8go-256go-noir.jpg",
+		"size" : "256",
+		"brand" : "SAMSUNG"
+	},
+	{
+		"id" : 9,
+		"name" : " LENOVO LÉGION PRO 5 ",
+		"model" : "16IRX8 I7 13È GÉN 16GO RTX 4070",
+		"category" : "computer",
+		"price" : "6 499",
+		"color" : "NOIR",
+		"image" : "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/p/c/pc-portable-gamer-lenovo-legion-pro-5-16irx8-i7-13e-gen-16go-rtx-4070.jpg",
+		"size" : "1000",
+		"brand" : "LENOVO"
+	},
+	{
+		"id" : 10,
+		"name" : "GAMER DELL G15",
+		"model" : "5530 I9 13È GÉN 64GO RTX 4060",
+		"category" : "computer",
+		"price" : "6115",
+		"color" : "NOIR",
+		"image" : "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/p/c/pc-portable-gamer-dell-g15-5530-i9-13e-gen-64go-rtx-4060-j.jpg",
+		"size" : "1000",
+		"brand" : "DELL"
+	},
+	{
+		"id" : 11,
+		"name" : "V TCL 32'' SMART ANDROID ",
+		"model" : "S5400A LED FULL HD",
+		"category" : "homeappliance",
+		"price" : "618",
+		"color" : "NOIR",
+		"image" : "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/t/v/tv-tcl-40-smart-android-s5400a-full-hd_1.jpg",
+		"size" : "0",
+		"brand" : "TCL"
+	},
+	{
+		"id" : 12,
+		"name" : "LAVE LINGE FRONTAL",
+		"model" : "LG FH2J3TNG5P 8KG",
+		"category" : "homeappliance",
+		"price" : "1799",
+		"color" : "SILVER",
+		"image" : "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/l/a/lave-linge-frontal-lg-fh2j3tng5p-8kg---silver_r_duction.jpg",
+		"size" : "32 kg",
+		"brand" : "LG"
+	}
+]
