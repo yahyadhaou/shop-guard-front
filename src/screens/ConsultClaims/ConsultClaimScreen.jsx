@@ -15,10 +15,10 @@ const ConsultClaimScreen = () => {
   const [claimsData, setClaimsData] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:8000/api/claims/getdataClaimsusersbyid/${id}/${userid}`) 
+      .get(`http://localhost:8000/api/claims/getdataClaimsusersbyid/${userid}/${contractid}`) 
       .then((res) => {
         setClaimsData(res.data);
-        console.log(res.data)
+        console.log(res.data ,"yahya")
       })
       .catch((err) => console.log(err));
   }, [id]);

@@ -11,7 +11,7 @@ const AddClaimForm = () => {
   const [attachments, setAttachments] = useState(null);
   const userId = localStorage.getItem("id");
   const navigate =useNavigate()
-  const { id } = useParams();
+  const { id,contractid } = useParams();
   const handleSubmit = (event) => {
     const claimData ={
       titleofclaim:title,
@@ -20,7 +20,7 @@ const AddClaimForm = () => {
       status:"processed",
       usersid:userId,
       insuranceid:1,
-      contractid:id
+      contractid:contractid
     }
     axios
       .post('http://localhost:8000/api/claims/insertClaimssdata', claimData)

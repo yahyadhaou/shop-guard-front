@@ -5,7 +5,7 @@ export default function Enteteconsult() {
   return (
     <div>
         <div className="navbar">
-<a  className="pic" href="LoginScreen.js">
+<a  className="pic" href="/app">
 <img src={logo} alt="Votre logo" />
 </a>
 <h2>Consult Claim</h2>

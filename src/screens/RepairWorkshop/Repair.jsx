@@ -23,17 +23,17 @@ export default function Repair() {
 
   const updateStatus = (status, id) => {
     axios
-      .put(`http://localhost:8000/api/claims/updateStatus/${id}`, { status })
-      .then((res) => {
-        setClaimwork((prevClaims) =>
-          prevClaims.map((claim) =>
-            claim.id === id ? { ...claim, status, workshop: 'no' } : claim
-          )
-        );
-        navigate("/Claimslist");
-      })
-      .catch((err) => console.log(err));
-  };
+        .put(`http://localhost:8000/api/claims/updateStatus/${id}`, { status })
+        .then((res) => {
+            setClaimwork((prevClaims) =>
+                prevClaims.map((claim) =>
+                    claim.id === id ? { ...claim, status, workshop: 'no' } : claim
+                )
+            );
+            navigate("/Claimslist");
+        })
+        .catch((err) => console.log(err));
+};
 
   if (!claimwork) {
     return <Repair2 />;
@@ -41,26 +41,26 @@ export default function Repair() {
 
   return (
     <div className='bg'>
-      <div className="navbar">
-        <a className="pic" href="app">
-          <img src={logo} alt="Logo" />
-        </a>
-        <h2>Repair workshop</h2>
-      </div>
-      <div className="product-container">
-        {claimwork.map(product => (
-          <ProductBox
-            key={product.id}
-            brand={product.brand}
-            model={product.model}
-            description={product.description}
-            onClick={() => {
-              updateStatus("Repair", product.id);
-              console.log(`Clicked on product ${product.id}`);
-            }}
-          />
-        ))}
-      </div>
+        <div className="navbar">
+            <a className="pic" href="app">
+                <img src={logo} alt="Logo" />
+            </a>
+            <h2>Repair workshop</h2>
+        </div>
+        <div className="product-container">
+            {claimwork.map(product => (
+                <ProductBox
+                    key={product.id}
+                    brand={product.brand}
+                    model={product.model}
+                    description={product.description}
+                    onClick={() => {
+                        updateStatus("Processed", product.id);
+                        console.log(`Clicked on product ${product.id}`);
+                    }}
+                />
+            ))}
+        </div>
     </div>
   );
 }

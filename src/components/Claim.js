@@ -10,7 +10,7 @@ const Claim = () => {
       time: '10:00',
       clientName: 'John Doe',
       phoneNumber: '123-456-7890',
-      status: 'processed', // 'processed' ou 'unprocessed'
+      status: 'processed', 
     },
   ]);
 
